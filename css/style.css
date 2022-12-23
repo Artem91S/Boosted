@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* верхняя часть */
+.top-name{
+    background: #000000;
+    text-align: center;
+    color:#FBFBFB;
+    padding: 0.5em 0;
+    line-height: 15px;
+    letter-spacing: 2px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li {
+    list-style-type: none;
+    padding: 0 1em;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.header-icons a {
+   text-decoration: none; 
+}
+.main-header{
+    background: url("/image/Rectangle.png")no-repeat bottom/cover;
+    width: 100%;
+    height:51em;
+    text-align: center;
+}
+.main-header h1{
+    padding-top: 1.7em;
+    font-size: 44px;
+    line-height: 50.63px;
+    font-weight: 400;
+}
+.main-header p{
+    padding-top: 1em;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.button{
+    padding-top:2em;
+}
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    background-color:#FF4A32;
+    border-radius: 50px;
+}
+.button a:nth-child(1){
+    padding: 0.5em 2em;
+    margin-right: 1em;
+}
+.button a:nth-child(2){
+    padding: 0.5em 1.5em;
+}
+.header-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1em 13em 1.5em;
+    background: #000000;
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-text h2{
+    padding-top: 2.5em;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.main-text p{
+    margin: 0 auto;
+    padding: 1em 0;
+    max-width: 685px;
+    font-size: 15px;
+    line-height: 18.75px;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+}
+.grey-line{
+    background-color: #CFCFCF;
+    width: 70px;
+    height: 2px;
+}
+.shop-boosted{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 5em 1em;
+}
+.imagen-board,.imagen-revs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-basis: 47%;
+}
+.imagen-board img,.imagen-revs img{
+    width: 100%;
+}
+.imagen-board div,.imagen-revs div{
+    position: absolute;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 25px;
+    line-height: 30px;
+}
+.imagen-board a,.imagen-revs a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 23.44px;
+}
+
+/*Electric-Skat */
+
+.Electric-Skat {
+    height: 46em;
+    background: url("/image/Electric\ Skateboards.png") no-repeat top/cover;
+    text-align: center;
+}
+.Electric-Skat p:nth-of-type(1){
+    padding-top: 3em;
+    letter-spacing:1px;
+    font-size: 15px;
+    line-height: 18.75px;
+}
+.Electric-Skat h2{
+    font-size: 45px;
+    line-height: 51px;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+.Electric-Skat p:nth-of-type(2){
+    padding-top: 1em;
+    letter-spacing:1px;
+    font-size: 15px;
+    line-height: 18.75px;
+    max-width: 488px;
+    width: 100%;
+    margin: 0 auto;
+}
+.Electric-Skat .button a{
+padding:0.5em 4em;
+}
+.Boosted-Rev{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 8em;
+}
+.girl-rev img,.rev-display img{
+    flex-basis:100%;
+}
+.rev-text,.girl-rev,.rev-display{
+    flex-basis: 30%;
+    padding: 0 1em;
+}
+.rev-text h3{
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 400;
+}
+.rev-text p{
+    padding-top: 1em;
+    font-size: 15px;
+    line-height: 23px;
+}
+/*Galary*/
+.galary{
+    display: flex;
+    justify-content: center;
+}
+.imagen-stealth img,.imagen-Plus img,.imagen-Mini img{
+    width: 100%;
+}
+.imagen-Plus,.imagen-Mini,.imagen-stealth {
+    flex-basis: 33%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-Plus div,.imagen-Mini div,.imagen-stealth div {
+    position: absolute;
+    color:#FFFFFF;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.imagen-Plus a,.imagen-Mini a,.imagen-stealth a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 23.44px;
+} 
+
+/* Video*/
+.video{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%
+}
+.video div{
+    flex-basis: 24%;
+    padding: 2em;
+}
+/*Accessories*/
+.Accessories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2em 0 4em;
+}
+.Accessories h2{
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 1em;
+}
+
+.galary-accessories{
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.galary-accessories p {
+    padding-top: 1em;
+    line-height: 18px;
+    color: #FF4A32;
+}
+.Rev-Tube span:nth-of-type(2),.Stem-Catch span:nth-of-type(2){
+    color: #FF4A32;
+    font-size: 15px;
+}
+.Brake-Fender span{
+    color:rgba(0, 0, 0, 0.3);;
+    font-size: 15px;
+}
+
+/*bottom navbaer*/
+.bottom-navbaer{
+    background: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.bottom-navbaer div{
+    padding: 2em 3.4em;
+}
+.bottom-navbaer h3{
+    color: #FFFFFF;
+    padding-bottom: 0.5em;
+    font-size: 32px;
+    font-weight: 36px;
+    font-weight: 700;
+}
+.bottom-navbaer p{
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    height: 5vh;
+
+}
+
+/**/
+.about-Booster{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3em 0;
+    color:#000000;
+    background: #F7F7F7;
+
+}
+.about-Booster h4{
+    padding-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.about-Booster li{
+    list-style-type: none;
+}
+.about-Booster a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 21px;
+    color:#000000;
+
+}
+.about-text {
+    flex-basis: 30%;
+}
+.about-text p {
+font-size: 14px;
+line-height: 21px;
+}
+.about-text p:nth-of-type(2){
+    padding-top: 1em;
+}
+
+footer{
+    padding: 2em 5em;
+    font-size: 13px;
+    line-height: 18.75px;
+}
+footer a{
+    text-decoration: none;
+    color: #FF4A32;
+
+}
