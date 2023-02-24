@@ -1,0 +1,17 @@
+$font-family:'Roboto', sans-serif;
+$color--white:#FBFBFB;
+$color--black:#000000;
+$color-grey: #CFCFCF;
+$color-orange:#FF4A32;
+@mixin font__size-letter__space-line__height-text__aline($size, $space,$height,$center:start){
+    font-size: $size;
+    letter-spacing: $space;
+    line-height: $height;
+    text-align: $center;
+
+}
+@mixin flex($place){
+    display: flex;
+    align-items: center;
+    justify-content: $place;
+}

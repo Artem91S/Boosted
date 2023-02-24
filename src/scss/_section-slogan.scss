@@ -1,0 +1,23 @@
+
+.main__text{
+    @include flex(start);
+    flex-direction: column;
+}
+.main__title{
+    @include font__size-letter__space-line__height-text__aline(32px, 1px,36px,start);
+    padding-top: 2.5em;
+    font-weight: 400;
+    }
+.main__description{
+        @include font__size-letter__space-line__height-text__aline(15px, 1px,18.75px,center);
+        margin: 0 auto;
+        padding: 1em 0;
+        max-width: 685px;
+        width: 100%;
+        color: $color--black;
+    }
+.grey__line{
+    background-color: $color-grey;
+    width: 70px;
+    height: 2px;
+}

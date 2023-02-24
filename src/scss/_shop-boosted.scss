@@ -1,0 +1,22 @@
+.shop{
+    @include flex(space-evenly);
+    padding: 2em 5em 1em;
+}
+.shop__conteiner{
+    @include flex(center);
+    position: relative;
+    flex-basis: 47%;
+}
+.shop__poster{
+    width: 100%;
+}
+.shop__description{
+    @include font__size-letter__space-line__height-text__aline(25px, 1px,30px,center);
+    position: absolute;
+    color:$color--white;
+}
+.shop__link{
+    @include font__size-letter__space-line__height-text__aline(18px, 1px,23.44px,start);
+    text-decoration: none;
+    color:$color--white;
+}
