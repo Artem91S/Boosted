@@ -3,8 +3,8 @@ import * as flsFunctions from "./modules/functions.js";
 flsFunctions.isWebp();
 
 $('.galary-accessories').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 2000,
   });

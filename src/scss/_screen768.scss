@@ -16,26 +16,25 @@
     .main__description{
         font-size: 12px;
     }
-    .shop__description{
+.shop__description{
        font-size: 15px;  
     }
-    .rev{
-       
+.rev{
         flex-wrap: wrap;
     }
-    .content__width{
+.content__width{
         font-size: 13px;
         text-align: center;
         min-width: 690px;
         padding-top: 0;
     }
-    .galary__link,.galary__description{
+ .galary__link,.galary__description{
         font-size: 14px;
         }
-    .video{
+.video{
         flex-direction: column;  
     }
-    .slick-next,.slick-prev{
+.slick-next,.slick-prev{
         visibility: hidden;
     }
 
@@ -64,7 +63,7 @@
 .adress__description{
                 margin: 0;
                 font-size: 12px;
-            }
+             }
 
     .header__clients{
         padding: 20px 20px 30px;
@@ -113,6 +112,8 @@
         min-width: 320px;
     }
     .header__option{
+        margin-top: 0;
+        line-height: 50px;
         font-size: 15px;
     }
     .header__content{
@@ -133,14 +134,14 @@
         position: absolute;
         top:60px;
         left:0;
-        height: 106vh;
+        height: 111vh;
         width: 100%;
         right: 100px;
         background: rgb(197, 195, 195);
         padding: 0;
     }
     .navbar__item{
-        padding: 79px 0;
+        padding: 84px 0;
         width: 100%;
     }
     .navbar__item:hover{
@@ -191,9 +192,9 @@
     font-weight: 700;
    }
    .main__description{
-    padding-top: 15px;
-    font-size: 18px;
-    line-height: 20px;
+    padding: 15px 1px;
+    font-size: 16px;
+    line-height: 23px;
    }
    .shop{
     padding: 0;
@@ -201,12 +202,23 @@
    .shop__conteiner{
     flex: 1;
    }
-   .skat{
-    height: 70vh;
+   .shop__description{
+    font-size: 17px;
    }
+   .skat{
+    height: 65vh;
+   }
+   .skat__description{
+    font-size: 20px;
+    font-weight: 500;
+   }
+  
    .content__width{
     font-size: 18px;
     min-width: 320px;
+   }
+   .galary__description{
+    font-size: 20px;
    }
    .video__content{
     flex: 1;
@@ -215,5 +227,40 @@
    .video__size{
     min-width: 400px;
     height: 250px;
+   }
+   .company__slogans{
+    flex-direction: column;
+    padding: 0;
+   }
+   .slogan__conteiner{
+    padding-bottom: 10px;
+   }
+   .slogan__title{
+    font-size: 25px;
+    margin-top: 0;
+   }
+   .slogan__description{
+    font-size: 20px;
+    line-height: 25px;
+   }
+   .slogan__img{
+    width: 100px;
+   }
+   .about{
+    padding: 0;
+    flex-direction: column;
+   }
+   .about__explore{
+    display: none;
+   }
+   .about__title{
+    padding-right: 0;
+   }
+   .about__adress{
+    padding: 10px 20px;
+   }
+   .adress__description{
+    text-align: center;
+    font-size: 18px;
    }
 }
