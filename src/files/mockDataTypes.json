@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "type": "Studio Apartment"
+    },
+    {
+      "id": "2",
+      "type": "One Bedroom Apartment"
+    },
+    {
+      "id": "3",
+      "type": "Two Bedroom Apartment"
+    },
+    {
+      "id": "4",
+      "type": "Luxury Penthouse"
+    },
+    {
+      "id": "5",
+      "type": "Loft Apartment"
+    }
+  ]
+  

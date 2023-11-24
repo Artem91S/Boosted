@@ -1,0 +1,22 @@
+[
+    {
+      "id": "1",
+      "city": "New York"
+    },
+    {
+      "id": "2",
+      "city": "Tokyo"
+    },
+    {
+      "id": "3",
+      "city": "London"
+    },
+    {
+      "id": "4",
+      "city": "Paris"
+    },
+    {
+      "id": "5",
+      "city": "Sydney"
+    }
+  ]

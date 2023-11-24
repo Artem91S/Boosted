@@ -1,22 +1,16 @@
 
 @import "fonts";
-@import'_normalaz';
-@import '_varebals';
-@import '_head';
-@import '_section-slogan';
-@import '_shop-boosted';
-@import '_section-electric-skat';
-@import '_section-galary';
-@import '_section-video';
-@import '_section-accessories';
-@import '_boosted-rev';
-@import '_footer';
-@import'_screen768';
+
 body{
     font-family: Roboto;
 }
+.container {
+    margin-top: 50px;
+  }
 
-.wraper{
-    width: 100%;
-    overflow: hidden;
-}
+  .containerButtons {
+    display: flex;
+    gap: 10px;
+  }
+
+

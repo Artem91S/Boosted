@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html/head.html',{"title":'Welcome To Boosted'})
-<body>
-<div class="wraper">
-@@include('html/header.html',{})
-<main>
-@@include('html/section-main_text.html',{})
-@@include('html/section-shop_boosted.html',{})
-@@include('html/section-electric_skat.html',{})
-@@include('html/section-boosted_rev.html',{})
-@@include('html/section-galary.html',{})
-@@include('html/section-video.html',{})
-@@include('html/section-accessories.html',{})
-@@include('html/footer.html',{})
-</div>
-
-<script
-  src="https://code.jquery.com/jquery-3.6.3.js"
-  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="js/app.min.js"></script>
-</body>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Нерухомість</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <div class="containerButtons pb-3">
+        <h2>Project table</h2>
+        <div class="containerButtons">
+          <button id="addRowBtn" class="btn btn-success">Add row</button>
+          <button id="saveAllBtn" class="btn btn-primary">SAVE</button>
+        </div>
+      </div>
+      @@include('html/table.html',{})
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
 </html>

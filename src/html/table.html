@@ -1,0 +1,29 @@
+<table class="table table-bordered" id="realEstateTable">
+    <thead>
+      <tr>
+        <th>Number</th>
+        <th>ID</th>
+        <th>Price</th>
+        <th>City</th>
+        <th>Type</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="number" class="text-center">All</td>
+        <td><input type="text" class="form-control id" /></td>
+        <td><input type="number" class="form-control price" /></td>
+        <td>
+          <select class="form-control city" multiple="multiple"></select>
+        </td>
+        <td>
+          <select class="form-control type" multiple="multiple"></select>
+        </td>
+        <td class="w-25 flex-row gap-5">
+          <button class="btn btn-danger deleteBtn mx-2">Delete</button
+          ><button class="btn btn-primary copyBtn">Copy</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
